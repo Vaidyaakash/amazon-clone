@@ -1,11 +1,9 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import Nav from './Nav'
 import data from './Details'
 
 const Student = () => {
-
-    // const student = useContext(data);
 
     return (
         <>
