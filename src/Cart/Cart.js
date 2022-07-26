@@ -5,7 +5,6 @@ import "./Cart.css"
 import Subtotal from './Subtotal'
 
 const Cart = () => {
-
     const [{ cart }] = useStateValue()
 
     return (
@@ -14,7 +13,7 @@ const Cart = () => {
                 <img src='https://images-eu.ssl-images-amazon.com/images/G/31/prime/PD22/Revised/Latest/Cashback/New/640x45._CB631377515_.jpg' alt='' />
                 <div>
                     <div className='cart_title'>
-                       <h1> Your Shopping Cart</h1>
+                        <h1> Your Shopping Cart</h1>
                     </div><hr />
 
                     {
@@ -38,5 +37,4 @@ const Cart = () => {
         </div>
     )
 }
-
 export default Cart;
