@@ -3,7 +3,7 @@ import { useStateValue } from '../Data/StateProvider';
 import "./CartProduct.css"
 
 const CartProduct = ({ id, img, title, price, rating }) => {
-    const [{cart}, dispatch] = useStateValue()
+    const [, dispatch] = useStateValue()
     const DeleteFromCart = () => {
         dispatch({
             type: "DELETE_FORM_CART",

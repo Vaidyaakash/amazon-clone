@@ -3,7 +3,7 @@ import { useStateValue } from '../Data/StateProvider';
 import "./Product-block.css";
 const Productblock = (props) => {
 
-    const [{cart}, dispatch] = useStateValue()
+    const [, dispatch] = useStateValue()
 
     // console.log(cart);
 

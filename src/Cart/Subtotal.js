@@ -6,11 +6,9 @@ import { useStateValue } from '../Data/StateProvider'
 const Subtotal = () => {
 
   const store = []
-  const [{ cart }] = useStateValue()
+  const [{ cart },] = useStateValue()
   let j = 0;
-  cart.map(e => {
-    store.push(e.price)
-  })
+  cart.map(e => store.push(e.price))
   for (let i = 0; i <= cart.length; i++) {
     if (store[i] === undefined) {
       store[i] = 0

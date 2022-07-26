@@ -3,7 +3,7 @@ import { useStateValue } from '../Data/StateProvider'
 import "./Slider1.css"
 
 const Slider1 = (props) => {
-    const [{cart}, dispatch] = useStateValue()
+    const [, dispatch] = useStateValue()
 
     // console.log(cart);
     const addToCart = () => {
