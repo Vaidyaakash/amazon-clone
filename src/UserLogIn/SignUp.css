@@ -1,0 +1,60 @@
+.signup{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* max-width: 500px; */
+    align-items: center;
+    height: 99vh;
+    background-color: #fff;
+    /* justify-content: center; */
+}
+.signup img{
+    width: 155px;
+    object-fit: contain;
+}
+.createaccount{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid lightgray;
+    margin-top: 25px;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 5px rgb(185, 185, 185);
+}
+.createaccount p{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 35px;
+}
+.login_name{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+    font-family: sans-serif;
+}
+.login_name input{
+    height: 30px;
+    width: 98%;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    margin-top: 2px;
+}
+.createaccount button{
+    /* padding: 5px 0;   */
+    height: 30px;
+    width: 98%;
+    margin: 10px 0;
+}
+.already_accout{
+    text-align: center;
+    margin: 2rem;
+}
+.already_accout a{
+    color: blue;
+    cursor: pointer;
+}
+.already_accout a:hover{
+    text-decoration: underline;
+}
