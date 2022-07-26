@@ -1,5 +1,5 @@
 import React from 'react'
-import CurrencyFormat from 'react-currency-format'
+// import CurrencyFormat from 'react-currency-format'
 import { Link } from 'react-router-dom'
 import { useStateValue } from '../Data/StateProvider'
 
@@ -23,23 +23,15 @@ const Subtotal = () => {
 
   return (
     <div className='subtotal'>
-      <CurrencyFormat
-        renderText={(value) => (        //whatever text we want with currency
           <>
             <p>
-              Subtotal ({cart.length} items): <strong>{value}</strong>
+              Subtotal ({cart.length} items):₹ <strong>{j}</strong>
             </p>
             <small className='subtotal_gift'>
               <input type="checkbox" id='gift' /> <label htmlFor='gift'>This order contain a gift</label>
             </small>
           </>
-        )}
-        decimalScale={2}    //₹45.99
-        value={j}
-        displayType={"text"}
-        thousandSeparator={true}  //₹4,456
-        prefix={"₹"}
-      />
+        
       <Link to="/checkout">
         <button>Proceed to Checkout</button>
       </Link>

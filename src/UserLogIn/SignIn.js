@@ -4,7 +4,7 @@ import { useStateValue } from '../Data/StateProvider';
 
 const SignIn = () => {
     const history = useNavigate()
-    const [{cart}, dispatch] = useStateValue()
+    const [{cart}] = useStateValue()
 
     const [signin, setSignin] = useState({
         password: "",

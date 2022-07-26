@@ -9,7 +9,7 @@ import SignIn from "./UserLogIn/SignIn";
 import SignUp from "./UserLogIn/SignUp";
 import { loadStripe } from "@stripe/stripe-js"
 import { Elements } from "@stripe/react-stripe-js"
-import Data from "./Data/SliderData";
+// import Data from "./Data/SliderData";
 // import Details from "./Data/SliderData"
 
 const promise = loadStripe("pk_test_51LORrsSA6j0luqwRNYNFRlvM1bVgYlkSA6nUwPoEGq5hlJNu3HwSVVWdyLWMBEcAv0yz2jAjoez4cBIE0B21jJdT00tuixTvKg")

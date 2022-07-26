@@ -26,7 +26,7 @@ const Slider1 = (props) => {
         <div className='slider'>
             <span>
                 <div className='slider_img'>
-                    <img src={img} />
+                    <img src={img} alt="" />
                 </div>
                 <div className='title'>{title}</div>
                 <div className='slider_price'>
